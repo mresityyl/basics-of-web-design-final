@@ -9,3 +9,8 @@ function toggleMenu() {
 function adVisible() {
     document.getElementById("ads").classList.toggle("change");
 }
+
+function siparis()
+{
+    alert("Sipariş verildi");
+}
