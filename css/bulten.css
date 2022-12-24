@@ -1,0 +1,78 @@
+.bolum{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.adv{
+    width: 650px; 
+    background-color: rgb(0, 0, 0);
+    /* background-image: url(../img/ytFolden.png);
+    background-size: 12%;
+    background-attachment: fixed;
+    background-position: 45px; */
+}
+.adv img{
+    position: fixed;
+    top: -120px;
+    width: 150px;
+}
+.adv p{
+    position: fixed;
+    right: 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 70px;
+    padding: 2px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.adv p:hover{
+    background-color: grey;
+}
+#ads.change{
+    visibility: hidden;
+
+}
+
+
+.haber{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* border-right: 5px rgb(0, 0, 0) solid; */
+}
+.haber img{
+    margin: 20px;
+    margin-left: 0;
+    width: 50%;
+}
+.haber h1{
+    font-size: 35px;
+}
+.haber marquee{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+p:nth-child(3){
+    color: gray;
+    font-size: 13px;
+}
+p:nth-child(5){
+    font-size: 18px;
+    font-weight: bold;
+}
+p:nth-child(7){
+    font-size: 17px;
+}
+
+.cizgi{
+    color: blue;
+    font-weight: bold;
+    border-top: 5px yellow solid;
+    width: 98%;
+}
