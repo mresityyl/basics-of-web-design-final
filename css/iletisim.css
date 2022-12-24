@@ -1,0 +1,27 @@
+.container div span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container div{
+    margin: 20px;
+}
+
+
+.form{
+   
+}
+.ana-baslik{
+    background-color: yellow;
+    font-weight: bold;
+}
+.bg-black{
+    background-color: rgb(75, 74, 74);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+.ilet{
+    /* text-decoration: none; */
+    color: black;
+}
