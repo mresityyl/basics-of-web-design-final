@@ -1,0 +1,38 @@
+.sea{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sea .hahaa{
+    margin: 10px;
+    margin-top: 100px;
+    width: 30%;
+    height: 400px;
+    background: linear-gradient(rgb(84, 84, 255), blue, rgb(0, 0, 102), rgb(0, 0, 41));
+    color: whitesmoke;   
+    border-radius: 20px;
+
+}
+/* .sea div h2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.sea li{
+
+    font-size: 20px;
+
+} */
+
+
+#menu {
+    /* position: absolute; */
+    /* display: none; */
+    margin: 50px;
+  }
+  
+  #menu:hover {
+    display: block;
+  }
