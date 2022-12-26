@@ -1,38 +1,86 @@
 .sea{
-    /* width: 100%; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: rgb(201, 201, 201);
 }
 
-.sea .hahaa{
+.sea .seas{
+     display: flex;
     margin: 10px;
     margin-top: 100px;
-    width: 30%;
+    width:400px;
     height: 400px;
     background: linear-gradient(rgb(84, 84, 255), blue, rgb(0, 0, 102), rgb(0, 0, 41));
     color: whitesmoke;   
-    border-radius: 20px;
-
-}
-/* .sea div h2{
-    margin-top: 10px;
-    margin-bottom: 15px;
+    border-radius: 50px;
+    min-width: 400px;
+    justify-content: center;
+    border: 2px rgb(255, 255, 255) solid;
 }
 
-.sea li{
+h2{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 360px;
+    padding: 5px;
+    width: 300px;
+    height: 58px;
+    text-align: center;
+    letter-spacing: 1px;
+    border: 2px solid black;
+}
 
-    font-size: 20px;
+.seas-1{
+    position: relative;
+    top: -68px;
+    /* transition: .5s */
+}
+.list h2:hover{
+    animation: swimming 1s infinite;
+}
+@keyframes swimming {
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    75%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.seas-2{
+    position: relative;
+    top: -20px;
+}
+.seas-3{
+    position: static;
+    margin: 50px 0;
+}
 
-} */
-
-
-#menu {
-    /* position: absolute; */
-    /* display: none; */
-    margin: 50px;
-  }
-  
-  #menu:hover {
+.list li{
+    display: none;
+}
+.list:hover li{
     display: block;
-  }
+}
+.list:hover li:hover{
+    background-color: rgb(241, 241, 149);
+    color: black;
+    font-weight: bold;
+}
+
+.list a{
+    color: white;
+    text-decoration: none;
+}
+.list a li{
+    border-bottom: 1px solid yellow;
+}

@@ -1,0 +1,22 @@
+.container{
+     margin: 50px;
+}
+.container h1{
+    margin-bottom: 50px;
+}
+.container section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center  ;
+}
+
+.container img{
+    width: 50%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.container p{
+    font-size: 17px;   
+}
