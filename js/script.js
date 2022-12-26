@@ -10,6 +10,7 @@ function adVisible() {
     document.getElementById("ads").classList.toggle("change");
 }
 
+// Market
 function siparis()
 {
     alert("Sipariş verildi");
