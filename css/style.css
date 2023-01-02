@@ -181,15 +181,16 @@
 }
 .ara-gorsel a{
     text-decoration: none;
-    background-color: yellow;
+    background-color: black;
     /* text-shadow: -3px 2px ö2px black; */
     /* color: white; */
     font-size: 28px;  
-    margin: 0 0 0 20px;
-    padding: 2px;
+    margin-left: 20px;
+    padding: 4px;
     border-radius: 10px;
-    color: black;
-    font-weight: bold;
+    color: white;
+    /* font-weight: bold; */
+    transition: 1s;
 }
 .ara-gorsel a:hover{
     background-color: black;
