@@ -1,3 +1,219 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="description" content="Su sporları">
+    <meta name="keywords" content="Su spor, spor, su">
+
+    <link rel="shortcut icon" href="../img/favicons/favicon-16x16.png">
+
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="../js/script.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Su Sporları</title>
+    
+    <style rel="stylesheet">
+        #index{
+            color: black;
+            font-weight: bold;
+            text-decoration: overline;
+            background: linear-gradient( -45deg,red,yellow,red);
+            background-size: 300% 300%;
+            animation: gradient 5s ease infinite;
+        }
+        @keyframes gradient {
+            0%{
+                background-position: 0% 50%;
+            }
+            50%{
+                background-position: 100% 50%;
+            }
+            100%{
+                background-position: 50% 0%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="navres"><a href="index.html" id="index">Ana Sayfa</a></li>
+            <li class="navres"><a href="bulten.html" id="bulten">Bülten</a></li>
+            <li class="navres"><a href="su-sporlari.html" id="su-sporlari">Su Sporları</a></li>
+            <li class="navres"><a href="galeri.html" id="galeri">Galeri</a></li>
+            <li><img src="../img/weblogo.png" alt=""></li> 
+            <li class="navres"><a href="egitimler.html" id="egitimler">Eğitimler</a></li>
+            <li class="navres"><a href="destinasyonlar.html" id="destinasyonlar">Destinasyonlar</a></li>
+            <li class="navres"><a href="magaza.html" id="magaza">Mağaza</a></li>
+            <li class="navres"><a href="iletisim.html" id="iletisim">İletişim</a></li>
+            <li><i id="menubar" class="fa-solid fa-bars" onclick="toggleMenu()"></i></li>
+        </ul>
+    </nav>
+    <div id="menubars">
+        <ul>
+            <li><a href="index.html" >Ana Sayfa</a></li>
+            <li><a href="bulten.html" >Bülten</a></li>
+            <li><a href="su-sporlari.html" >Su Sporları</a></li>
+            <li><a href="galeri.html" >Galeri</a></li>
+            <li><a href="egitimler.html">Eğitimler</a></li>
+            <li><a href="destinasyonlar.html">Destinasyonlar</a></li>
+            <li><a href="magaza.html">Mağaza</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+    </div>
+    
+
+    <section class="bulten">
+        <div class="baslik">
+            <h1>
+                <i class="fa-regular fa-newspaper"></i>                  
+                SON GELİŞMELER
+            </h1>
+        </div>
+        <div class="icerik">
+            <a href="bulten.html#merve">
+                <div class="card">
+                    <img class="card-image" src="../img/Bmerve.jpg" alt="Card Image">
+                    <h2 class="card-title">Merve Tuncel, Avustralya'da 5. oldu</h2>
+                    <p class="card-text">Avustralya'da düzenlenen Dünya Kısa Kulvar Yüzme Şampiyonası'nın ikinci gününde milli sporcu Merve Tuncel, kadınlar 800 metre serbest stilde 5. sırayı aldı.</p>
+                </div>
+            </a>
+            <a href="bulten.html#beyza">
+                <div class="card">
+                    <img class="card-image" src="../img/Bbeyza.jpg" alt="Card Image">
+                    <h2 class="card-title">Su korkusuyla gelen başarı öyküsü</h2>
+                    <p class="card-text">Edirne'de 6 yaşında su korkusunu yenmek için başladığı yüzmede 200 metre serbest ve 400 metre karışıkta 3. kez Türkiye Şampiyonu olan Fenerbahçe Spor Kulübü'nün sporcusu Beyza Işık'ın (13) hedefi olimpiyatlarda ülkeyi temisl etmek.</p>
+                </div>
+            </a>
+            <a href="bulten.html#agri">
+                <div class="card">
+                    <img class="card-image" src="../img/Bağrı.jpg" alt="Card Image">
+                    <h2 class="card-title">Başarıya kulaç atıyorlar</h2>
+                    <p class="card-text">Ağrı'da günün büyük bölümünü geçirdikleri evlerinden çıkıp yüzme sporuna başlayan bedensel engelliler, milli forma hayaliyle antrenman yapıyor. <br><br> "Ülkemizi iyi yerlerde temsil etmek istiyoruz"</p>
+                </div>
+            </a>
+            <a href="bulten.html#rakip">
+                <div class="card">
+                    <img class="card-image" src="../img/Brakip.jpg" alt="Card Image">
+                    <h2 class="card-title">Sutopunda rakipler belli oldu</h2>
+                    <p class="card-text">Avrupa Yüzme Birliği (LEN) tarafından düzenlenen Sutopu Challenger Kupası'nda Türkiye'yi temsil eden ENKA ile Galatasaray'ın çeyrek finaldeki rakipleri belirlendi.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="sporlar">
+        <div class="su-baslik">
+            <i class="fa-solid fa-water-ladder"></i>
+            SU SPORLARI
+        </div>
+        <div class="su-icerik">
+            <div>
+                <h3>Su içerisinde gerçekleştirilenler</h1>
+                <br>
+                <ul>
+                    <li>Atlama</li>
+                    <li>Kurtarma yüzücülüğü</li>
+                    <li>Modern pentatlon </li>
+                    <li>Senkronize atlama</li>
+                    <li>Senkronize yüzme</li>
+                    <li>Su aerobiği</li>
+                    <li>Sutopu</li>
+                    <li>Şnorkelle dalış</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Su üstünde gerçekleştirilenler</h3>
+                <br>
+                <ul>
+                    <li>Ayakta kürek sörfü</li>
+                    <li>Balıkçılık</li>
+                    <li>Beyaz su raftingi</li>
+                    <li>Bodyboard</li>
+                    <li>Çıplak ayakla kayak</li>
+                    <li>Dragon bot</li>
+                    <li>Flowrid</li>
+                    <li>Flyboard</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Sualtında gerçekleştirilenler</h3>
+                <br>
+                <ul>
+                    <li>Akuatlon</li>
+                    <li>Finswimming</li>
+                    <li>Mızraklı balıkçılık</li>
+                    <li>Serbest dalış</li>
+                    <li>Sportif dalış</li>
+                    <li>Sualtı atıcılığı</li>
+                    <li>Sualtı buz hokeyi</li>
+                    <li>Sualtı fotoğrafçılığı</li>
+                </ul>
+            </div>
+        </div>
+        <div class="su-buton">
+            <div class="su-devam">
+                <a href="su-sporlari.html">DAHA FAZLA BİLGİ</a>
+            </div>
+            <div class="su-devam-buton"></div>
+        </div>
+    </section>
+
+    <div class="topyazi">
+        Merhaba, <br><br>
+        Su sporları topluluğumuza katılmayı düşünüyorsanız, mutlaka katılmanızı bekliyoruz! Su sporları, hem zihinsel hem de fiziksel açıdan yararlıdır ve aynı zamanda sosyal aktivitelerdir. Bizim topluluğumuz, su sporlarının keyfini çıkarmak isteyen herkesi kucaklar. <br><br>           
+        Topluluğumuza katılmak için, ilk olarak güvenli bir su ortamı bulunmalıdır. Bu, deniz, göl veya havuz gibi su ortamları olabilir. Daha sonra, güvenli bir şekilde su sporları yapabilmek için gerekli ekipmanları (örneğin mayo, yüzme şapka ve gözlük gibi) ve güvenlik önlemlerini (örneğin can yeleği gibi) kullanmalısınız. <br><br>            
+        Eğer su sporlarını yapmaya başlamak için eğitim almak istiyorsanız, topluluğumuzda eğitmen ve antrenörlerimiz mevcuttur. Bu sayede, su sporlarını daha güvenli ve bilinçli bir şekilde çıkarabilirsiniz. <br><br>            
+        Topluluğumuza katılmak isteyen herkesi bekleriz. Eğer su sporlarının keyfini çıkarmak istiyorsanız, mutlaka bizimle iletişime geçin. <br><br>           
+        İyi günler, <br><br>
+        <span>SUALAN TOPLULUĞU</span>
+    </div>
+
+    <div class="ara-gorsel">
+        <h1>Topluluğumuza <br> Katılın</h1>
+        <a href="iletisim.html">
+            <i class="fa-solid fa-scroll"></i>
+            İletişim
+        </a>
+    </div>
+
+    <div class="ara-gorsel-2">
+        <h1>Yüzme Kursuna mı <br>
+            İhtiyacınız var <br>
+            O halde buyrun <br>
+            Derinlere dalalım!</h1>
+        <a href="egitimler.html" id="butonhabu">
+            <i class="fa-solid fa-user-graduate"></i>
+            Eğitim / Kurs
+        </a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <h4>
+            Bağlantıda Kalın
+            <a href="https://twitter.com/mresityyl" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/m.resityyl/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.youtube.com/@ZekraBeats" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://github.com/mresityyl" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/muhammet-re%C5%9Fit-yayla-5b40a5149/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </h4>
+        <p>© 2022 SUALAN Tüm hakları saklıdır.<sup>™</sup></p>
+    </footer>
+
+</body>
+=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -209,4 +425,5 @@
     </footer>
 
 </body>
+>>>>>>> 4cd9f38235ed410f6636c39106533be05576d957
 </html>
