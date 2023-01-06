@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container div span{
     font-size: 20px;
     font-weight: bold;
@@ -20,3 +21,46 @@
     /* text-decoration: none; */
     color: black;
 }
+/****************************/
+
+
+.forms{
+    display: flex;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    /* align-items: center;  */
+    flex-flow: column;
+}
+
+
+
+
+
+
+
+
+
+=======
+.container div span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container div{
+    margin: 20px;
+}
+
+.ana-baslik{
+    background-color: yellow;
+    font-weight: bold;
+}
+.bg-black{
+    background-color: rgb(75, 74, 74);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.ilet{
+    /* text-decoration: none; */
+    color: black;
+}
+>>>>>>> 4cd9f38235ed410f6636c39106533be05576d957

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .container{
     display: flex;
@@ -56,4 +57,64 @@ section div:nth-child(2){
 section div:nth-child(3){
     background-color: rgb(214, 213, 146);
     padding: 10px;
+=======
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.kurslink{
+    position: fixed;
+    height: 50vh;
+     width: 10%;
+    right: 0;
+    top: 21%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.kurslink h1{
+    color: white;
+}
+.kurslink h3{
+    color: red;
+}
+.kurslink p{
+    color: yellow;
+}
+.kurslink a{
+    color: black;
+    text-decoration: none;
+    background-color: yellow;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 50px;
+    bottom: 20px;
+    left: 20px;
+    position: absolute;
+    transition: 1s;
+}
+.kurslink a:hover{
+    background-color: rgb(233, 233, 90);
+    transform: scale(1.3);
+
+}
+section{
+    width: 75%;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+
+}
+section div:nth-child(1){
+    background-color: rgb(243, 233, 147);
+    padding: 10px;
+}
+section div:nth-child(2){
+    background-color: rgb(218, 207, 114);
+    padding: 10px;
+}
+section div:nth-child(3){
+    background-color: rgb(214, 213, 146);
+    padding: 10px;
+>>>>>>> 4cd9f38235ed410f6636c39106533be05576d957
 }

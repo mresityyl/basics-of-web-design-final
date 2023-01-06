@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /*!  MAĞAZA START*/
 
@@ -89,4 +90,97 @@
   }
   
   /*? MAĞAZA END */
+=======
+
+/*!  MAĞAZA START*/
+
+.magaza {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: rgb(221, 216, 216);
+  }
+  
+  .mag-card {
+    border: 2px solid #ccc;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    position: relative;
+    margin: 20px;
+  }
+  
+  .mag-card img {
+    width: 293px;
+    transition: 2s;
+    border-radius: 35px 35px 0 0;
+    border-top: 10px solid yellow;
+  }
+  
+  .mag-card img:hover {
+    transform: scale(1.15);
+    /* border: 5px solid #d81327; */
+    border-radius: 360px;
+  }
+  
+  .mag-card h2 {
+    position: absolute;
+    bottom: 90px;
+    left: 19px;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .mag-card p {
+    position: absolute;
+    bottom: 10px;
+    left: 19px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 8px;
+  }
+
+  .mag-card div{
+    color: yellow;
+    display: flex;
+    position: relative;
+    top: 65px;
+    left: 19px;
+  }
+  .mag-card div span{
+    color: white;
+    padding-left: 5px;
+  }
+  
+  .mag-card a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 1s;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    transition: .8s;
+  }
+  
+  .mag-card a:hover {
+    background-color: yellow;
+    transform: scale(1.1);
+  }
+  
+  /*? MAĞAZA END */
+>>>>>>> 4cd9f38235ed410f6636c39106533be05576d957
   
